@@ -27,12 +27,12 @@ html, body {
  * ------------------- */
 
 #header.color-strip {
-    background: #000 url(/images/colorstrip.jpg) 30000px 38px repeat-x;
+    background: #000 url(../images/colorstrip.jpg) 30000px 38px repeat-x;
 }
 
 #header .inner {
     height: 349px;
-    background: transparent url(/images/headermask.png) top left no-repeat;
+    background: transparent url(../images/headermask.png) top left no-repeat;
 }
 
 /* Content
@@ -40,7 +40,7 @@ html, body {
 
 #content {
     height: 260px;
-    background: #000 url(/images/headerunder.png) top left no-repeat;
+    background: #000 url(../images/headerunder.png) top left no-repeat;
     position: relative;
 }
 
