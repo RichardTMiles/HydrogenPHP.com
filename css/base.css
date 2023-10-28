@@ -75,7 +75,7 @@ html, body {
     display: block;
     height: 64px;
     width: 64px;
-    background: url(./images/dlicon.png) top left no-repeat;
+    background: url(../images/dlicon.png) top left no-repeat;
     float: left;
     padding-right: 14px;
 }
