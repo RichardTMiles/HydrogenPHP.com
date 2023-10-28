@@ -1,0 +1,119 @@
+/* Base CSS for HydrogenPHP.com */
+
+/* Construct
+ * ------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    color: #fff;
+    background-color: #000;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 10px;
+}
+
+#wrap {
+    width: 778px;
+    position: absolute;
+    left: 50%;
+    margin-left: -389px;
+}
+
+/* Header
+ * ------------------- */
+
+#header.color-strip {
+    background: #000 url(/images/colorstrip.jpg) 30000px 38px repeat-x;
+}
+
+#header .inner {
+    height: 349px;
+    background: transparent url(/images/headermask.png) top left no-repeat;
+}
+
+/* Content
+ * ------------------- */
+
+#content {
+    height: 260px;
+    background: #000 url(/images/headerunder.png) top left no-repeat;
+    position: relative;
+}
+
+#disclaimer {
+    font-family: Georgia, Tahoma, sans-serif;
+    color: #444;
+    font-size: 1.8em;
+    width: 380px;
+    text-align: justify;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+#disclaimer a {
+    color: #666;
+    text-decoration: none;
+}
+
+#disclaimer a:hover {
+    color: #ccc;
+}
+
+#download-box {
+    position: absolute;
+    top: 75px;
+    left: 500px;
+    width: 260px;
+}
+
+#download-box a.img-link {
+    display: block;
+    height: 64px;
+    width: 64px;
+    background: url(/images/dlicon.png) top left no-repeat;
+    float: left;
+    padding-right: 14px;
+}
+
+#download-box a.txt-link {
+    display: block;
+    color: #fff;
+    font-size: 1.3em;
+    margin-top: 17px;
+    text-decoration: none;
+}
+
+#download-box a.txt-link:hover {
+    text-decoration: underline;
+}
+
+#download-box .release-date {
+    display: block;
+    font-size: 1.1em;
+    color: #555;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Footer
+ * ------------------- */
+
+#footer {
+    text-align: left;
+    padding: 0 20px 0 10px;
+    color: #444;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #777;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
