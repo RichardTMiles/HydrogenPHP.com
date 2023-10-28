@@ -31,8 +31,8 @@ html, body {
 }
 
 #header .inner {
-    height: 349px;
-    background: transparent url(../images/headermask.png) top left no-repeat;
+    height: 400px;
+    background: transparent url(../images/headermaskC6.png) center center no-repeat;
 }
 
 /* Content
